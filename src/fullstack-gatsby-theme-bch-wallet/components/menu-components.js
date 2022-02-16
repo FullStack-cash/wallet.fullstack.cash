@@ -15,7 +15,7 @@ import Configure from 'fullstack-gatsby-theme-bch-wallet/src/components/admin-lt
 import SendReceive from 'fullstack-gatsby-theme-bch-wallet/src/components/admin-lte/send-receive'
 
 import About from '../../about'
-// import Sweep from 'fullstack-gatsby-plugin-bch-sweep/src/components/sweep/index'
+import Sweep from 'fullstack-gatsby-plugin-bch-sweep/src/components/sweep/index'
 // import CreateToken from 'gatsby-plugin-bch-create-token/src/components/create-token'
 
 const { Item } = Sidebar
@@ -38,11 +38,11 @@ const MenuComponents = props => {
         />
       )
     },
-    // {
-    //   key: 'Sweep',
-    //   component: <Sweep key='Sweep' {...props} />,
-    //   menuItem: <Item icon='fas-arrow-circle-up' key='Sweep' text='Sweep' />
-    // },
+    {
+      key: 'Sweep',
+      component: <Sweep key='Sweep' {...props} />,
+      menuItem: <Item icon='fas-arrow-circle-up' key='Sweep' text='Sweep' />
+    },
     {
       key: 'Wallet',
       component: <Wallet key='Wallet' interface='rest-api' {...props} />,
