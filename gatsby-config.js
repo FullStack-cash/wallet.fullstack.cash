@@ -16,7 +16,8 @@ module.exports = {
     //   }
     // },
     // require.resolve('/home/trout/work/psf/gatsby-plugin-bch-sweep')
-    'fullstack-gatsby-plugin-bch-sweep'
+    'fullstack-gatsby-plugin-bch-sweep',
+    'fullstack-gatsby-plugin-bch-create-token'
     // 'gatsby-plugin-bch-create-token'
   ],
   // https://www.gatsbyjs.com/docs/reference/release-notes/v2.28/#feature-flags-in-gatsby-configjs

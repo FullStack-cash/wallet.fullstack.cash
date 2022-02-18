@@ -16,7 +16,7 @@ import SendReceive from 'fullstack-gatsby-theme-bch-wallet/src/components/admin-
 
 import About from '../../about'
 import Sweep from 'fullstack-gatsby-plugin-bch-sweep/src/components/sweep/index'
-// import CreateToken from 'gatsby-plugin-bch-create-token/src/components/create-token'
+import CreateToken from 'fullstack-gatsby-plugin-bch-create-token/src/components/create-token'
 
 const { Item } = Sidebar
 
@@ -49,13 +49,13 @@ const MenuComponents = props => {
       // component: <Wallet key="Wallet" interface="consumer-api" {...props} />,
       menuItem: <Item icon='fa-wallet' key='Wallet' text='Wallet' />
     },
-    // {
-    //   key: 'Create Token',
-    //   component: <CreateToken key='Create Token' {...props} />,
-    //   menuItem: (
-    //     <Item icon='fas-plus-square' key='Create Token' text='Create Token' />
-    //   )
-    // },
+    {
+      key: 'Create Token',
+      component: <CreateToken key='Create Token' {...props} />,
+      menuItem: (
+        <Item icon='fas-plus-square' key='Create Token' text='Create Token' />
+      )
+    },
     {
       key: 'Configure',
       component: <Configure key='Configure' {...props} />,
