@@ -28,8 +28,7 @@
     "fullstack-gatsby-plugin-bch-sweep": "1.0.0",
     "fullstack-gatsby-theme-bch-wallet": "1.0.4",
     "gatsby": "4.4.0",
-    "gatsby-plugin-bch-create-token": "^1.1.2",
-    "fullstack-gatsby-plugin-bch-create-token": "https://github.com/FullStack-cash/fullstack-gatsby-plugin-bch-create-token#dh-update-token"
+    "fullstack-gatsby-plugin-bch-create-token": "1.0.1"
   },
   "repository": {
     "type": "git",
