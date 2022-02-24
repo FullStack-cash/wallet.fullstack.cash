@@ -28,7 +28,7 @@
     "fullstack-gatsby-plugin-bch-sweep": "1.0.0",
     "fullstack-gatsby-theme-bch-wallet": "1.0.5",
     "gatsby": "4.4.0",
-    "fullstack-gatsby-plugin-bch-create-token": "1.0.1"
+    "fullstack-gatsby-plugin-bch-create-token": "1.0.2"
   },
   "repository": {
     "type": "git",
