@@ -18,7 +18,14 @@ const config = {
   hostUrl: 'https://fullstack.cash/',
   sourceCode: 'https://github.com/Permissionless-Software-Foundation/wallet.fullstack.cash',
   torUrl: '6akyufxp2fiyqk5526kwxvas63xo5kag657jlztnaqnemjctkfp2xhid.onion',
-  clearWebUrl: 'https://wallet.fullstack.cash'
+  clearWebUrl: 'https://wallet.fullstack.cash',
+
+  // Interface used by minial-slp-wallet
+  // interface: 'consumer-api',
+  // restURL: 'https://free-bch.fullstack.cash'
+  // restURL: 'http://localhost:5005'
+  interface: 'rest-api',
+  restURL: 'https://bchn.fullstack.cash/v5'
 }
 
 module.exports = config
