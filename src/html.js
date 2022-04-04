@@ -46,7 +46,7 @@ export default function HTML (props) {
         {/* <script src='https://unpkg.com/bch-message-lib' /> */}
 
         {/* bch-token-sweep */}
-        <script src='https://unpkg.com/bch-token-sweep' />
+        <script src='https://unpkg.com/fullstack-bch-token-sweep' />
 
         {props.headComponents}
       </head>
