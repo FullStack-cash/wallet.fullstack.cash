@@ -25,10 +25,10 @@
     "@capacitor/cli": "2.4.6",
     "@capacitor/core": "2.4.6",
     "adminlte-2-react": "0.2.0-beta.10",
+    "fullstack-gatsby-plugin-bch-create-token": "1.0.2",
     "fullstack-gatsby-plugin-bch-sweep": "1.0.0",
-    "fullstack-gatsby-theme-bch-wallet": "1.0.10",
-    "gatsby": "4.4.0",
-    "fullstack-gatsby-plugin-bch-create-token": "1.0.2"
+    "fullstack-gatsby-theme-bch-wallet-v1": "1.0.12",
+    "gatsby": "4.4.0"
   },
   "repository": {
     "type": "git",
@@ -45,6 +45,7 @@
     "eslint-plugin-prettier": "3.4.0",
     "eslint-plugin-standard": "5.0.0",
     "husky": "4.3.8",
+    "mocha": "^10.0.0",
     "semantic-release": "17.4.2",
     "standard": "16.0.3"
   },

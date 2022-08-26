@@ -40,7 +40,7 @@ export default function HTML (props) {
 
         {/* minimal-slp-wallet-web */}
         {/* <script src='https://unpkg.com/minimal-slp-wallet@3.6.1' /> */}
-        <script src='https://unpkg.com/minimal-slp-wallet' />
+        <script src='https://unpkg.com/minimal-slp-wallet@4.7.1' />
 
         {/* bch-message-lib */}
         {/* <script src='https://unpkg.com/bch-message-lib' /> */}

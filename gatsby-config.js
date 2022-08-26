@@ -7,7 +7,7 @@
 module.exports = {
   /* Your site config here */
   plugins: [
-    'fullstack-gatsby-theme-bch-wallet',
+    'fullstack-gatsby-theme-bch-wallet-v1',
     // 'bch-wallet-plugin-postoffice',
     // {
     //   resolve: 'gatsby-plugin-compile-es6-packages',
